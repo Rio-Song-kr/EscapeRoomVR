@@ -102,6 +102,7 @@ MonoBehaviour:
   - {fileID: 7493488453051796123}
   - {fileID: 1188948499594507441}
   - {fileID: -4860805187744121574}
+  - {fileID: 6280026447423997550}
   - {fileID: -378783576454174527}
   - {fileID: -2164209035153309701}
   - {fileID: -4384195752861598881}
@@ -112,6 +113,7 @@ MonoBehaviour:
   - {fileID: -1923854091315508054}
   - {fileID: 717957609713391829}
   - {fileID: -8579198644991811207}
+  - {fileID: -3776244046051256659}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -193,7 +195,6 @@ MonoBehaviour:
   m_Name: HandTracking Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Hand Tracking Subsystem
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handtracking
@@ -412,7 +413,6 @@ MonoBehaviour:
   m_Name: HandTracking Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Hand Tracking Subsystem
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handtracking
@@ -591,7 +591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f647cc0545697264a9878224faada6d5, type: 3}
   m_Name: MetaQuestFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Support
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.metaquest
@@ -719,7 +719,6 @@ MonoBehaviour:
   m_Name: MetaHandTrackingAim Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Meta Hand Tracking Aim
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
@@ -740,7 +739,6 @@ MonoBehaviour:
   m_Name: MetaHandTrackingAim Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Meta Hand Tracking Aim
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
@@ -880,6 +878,7 @@ MonoBehaviour:
   - {fileID: 9204398840022608685}
   - {fileID: 7374219077222161962}
   - {fileID: 827209721417807748}
+  - {fileID: 5820206941645511384}
   - {fileID: 3179507055401849949}
   - {fileID: 6914996125485262930}
   - {fileID: 2837349035741772122}
@@ -890,6 +889,7 @@ MonoBehaviour:
   - {fileID: -1878283669517597326}
   - {fileID: 1159515931686079408}
   - {fileID: 8138890793321638568}
+  - {fileID: -232629724939748708}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
