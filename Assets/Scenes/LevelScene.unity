@@ -7204,7 +7204,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21578,6 +21578,52 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 885584563}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &886589203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 886589205}
+  - component: {fileID: 886589204}
+  m_Layer: 0
+  m_Name: SoundPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &886589204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886589203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b624dffd97fe344f8103a140d65f025, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSourcePrefab: {fileID: 4415756078710367294, guid: 78f36ae67e14db34b910b912a27ae40b,
+    type: 3}
+--- !u!4 &886589205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886589203}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.8850555, y: 1.9403601, z: -0.6878464}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &887574445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39981,6 +40027,7 @@ GameObject:
   - component: {fileID: 1696781767}
   - component: {fileID: 1696781770}
   - component: {fileID: 1696781769}
+  - component: {fileID: 1696781771}
   m_Layer: 8
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -40062,6 +40109,21 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1696781771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696781765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2705cc93ab6b34345a783a6089120353, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _stepInterval: 0.5
+  _characterController: {fileID: 0}
+  _stepTimer: 0
 --- !u!1001 &1700018088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51093,3 +51155,4 @@ SceneRoots:
   - {fileID: 1783389313}
   - {fileID: 298631874}
   - {fileID: 1815729014}
+  - {fileID: 886589205}

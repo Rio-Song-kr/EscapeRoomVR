@@ -12,8 +12,10 @@ public class IDCardReader : MonoBehaviour
     {
         if (other.gameObject.CompareTag("ID Card"))
         {
+            GameManager.Instance.Audio.PlaySFX(AudioClipName.CardSound, transform.position);
             _animator.SetBool(_hashIsOpen, true);
             Destroy(other.gameObject);
+            GameManager.Instance.Audio.PlaySFX(AudioClipName.RoomDoorSound, transform.position);
         }
     }
 }

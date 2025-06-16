@@ -11,18 +11,8 @@ public class KeyPad : MonoBehaviour
     private int _hashIsOpen = Animator.StringToHash("IsOpen");
 
     public void OnClearClicked() => ClearNumbers();
-    
-    public void OnEnterClicked()
-    {
-        if (!_password.Equals(_numbers.text))
-        {
-            _numbers.text = "WRONG";
-            return;
-        }
 
-        _numbers.text = "CORRECT";
-        _animator.SetBool(_hashIsOpen, true);
-    }
+    public void OnEnterClicked() => CheckPassword();
 
     public void OnZeroClicked() => UpdateNumbers("0");
     public void OnOneClicked() => UpdateNumbers("1");
@@ -37,10 +27,28 @@ public class KeyPad : MonoBehaviour
 
     private void UpdateNumbers(string number)
     {
+        GameManager.Instance.Audio.PlaySFX(AudioClipName.KeypadSound, transform.position);
         if (_numbers.text.Length >= _password.Length) return;
 
         _numbers.text += number;
     }
 
-    private void ClearNumbers() => _numbers.text = "";
+    private void ClearNumbers()
+    {
+        _numbers.text = "";
+    }
+
+    private void CheckPassword()
+    {
+        GameManager.Instance.Audio.PlaySFX(AudioClipName.KeypadSound, transform.position);
+        if (!_password.Equals(_numbers.text))
+        {
+            _numbers.text = "WRONG";
+            return;
+        }
+
+        _numbers.text = "CORRECT";
+        _animator.SetBool(_hashIsOpen, true);
+        GameManager.Instance.Audio.PlaySFX(AudioClipName.RoomDoorSound, transform.position);
+    }
 }
