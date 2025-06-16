@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: ebb12b46ed2aafa4e915f6f9f92dc37d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - BGMAudioMixer: {fileID: 7020720361972541069, guid: 8e6e58e5b6905534c838fc8ccdfb7919,
+      type: 2}
+  - SFXAudioMixer: {fileID: 3760436955585604905, guid: 8e6e58e5b6905534c838fc8ccdfb7919,
+      type: 2}
+  - TitleBackground: {instanceID: 0}
+  - LevelBackground: {instanceID: 0}
+  - ButtonClick: {instanceID: 0}
+  - BubbleShootSound: {instanceID: 0}
+  - BubblePopSound: {instanceID: 0}
+  - WinSound: {instanceID: 0}
+  - LoseSound: {instanceID: 0}
+  - SittingSound: {instanceID: 0}
+  - GameStartSound: {instanceID: 0}
+  - GoalSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

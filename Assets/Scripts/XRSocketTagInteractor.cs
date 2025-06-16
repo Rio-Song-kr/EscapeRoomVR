@@ -15,6 +15,8 @@ public class XRSocketTagInteractor : XRSocketInteractor
     protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
         base.OnSelectEntered(args);
+        GameManager.Instance.Audio.PlaySFX(AudioClipName.SocketItemSound, transform.position);
+        
         //# 종료 조건 추가
         Debug.Log("End");
     }
