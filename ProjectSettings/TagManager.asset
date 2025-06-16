@@ -7,6 +7,8 @@ TagManager:
   - Floor
   - Left Hand
   - Right Hand
+  - Cube
+  - ID Card
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - Grab
   - Grab Ignore Ray
   - Interactable Body
-  - 
+  - Target
   - 
   - 
   - 
