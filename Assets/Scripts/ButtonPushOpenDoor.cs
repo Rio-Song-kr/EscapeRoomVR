@@ -14,5 +14,6 @@ public class ButtonPushOpenDoor : MonoBehaviour
     private void OpenDoor()
     {
         _animator.SetBool(_hashIsOpen, true);
+        GameManager.Instance.Audio.PlaySFX(AudioClipName.PushButtonSound, transform.position);
     }
 }

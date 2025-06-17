@@ -16,6 +16,7 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
+        AudioSettings.Reset(AudioSettings.GetConfiguration());
         InitAudioClip();
         InitBGMAudioSource();
     }
@@ -27,11 +28,11 @@ public class AudioManager : MonoBehaviour
     {
         _audioClips[AudioClipName.Background] = _audioData.Background;
         _audioClips[AudioClipName.RoomDoorSound] = _audioData.RoomDoorSound;
-        // _audioClips[AudioClipName.DoorSound] = _audioData.DoorSound;
+        _audioClips[AudioClipName.DoorSound] = _audioData.DoorSound;
+        _audioClips[AudioClipName.ClosedDoorSound] = _audioData.ClosedDoorSound;
         _audioClips[AudioClipName.CardSound] = _audioData.CardSound;
-        // _audioClips[AudioClipName.WalkSound] = _audioData.WalkSound;
-        // _audioClips[AudioClipName.PushButtonSound] = _audioData.PushButtonSound;
-        // _audioClips[AudioClipName.ChestSound] = _audioData.ChestSound;
+        _audioClips[AudioClipName.WalkSound] = _audioData.WalkSound;
+        _audioClips[AudioClipName.PushButtonSound] = _audioData.PushButtonSound;
         _audioClips[AudioClipName.SocketItemSound] = _audioData.SocketItemSound;
         _audioClips[AudioClipName.KeypadSound] = _audioData.KeypadSound;
     }

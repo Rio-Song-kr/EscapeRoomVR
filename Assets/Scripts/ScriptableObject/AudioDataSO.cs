@@ -13,11 +13,11 @@ public class AudioDataSO : ScriptableObject
 
     [Header("SFX Clips")]
     public AudioClip RoomDoorSound;
-    // public AudioClip DoorSound;
+    public AudioClip DoorSound;
+    public AudioClip ClosedDoorSound;
     public AudioClip CardSound;
-    // public AudioClip WalkSound;
-    // public AudioClip PushButtonSound;
-    // public AudioClip ChestSound;
+    public AudioClip WalkSound;
+    public AudioClip PushButtonSound;
     public AudioClip SocketItemSound;
     public AudioClip KeypadSound;
 }
