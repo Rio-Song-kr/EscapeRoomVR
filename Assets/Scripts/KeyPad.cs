@@ -28,7 +28,7 @@ public class KeyPad : MonoBehaviour
     private void UpdateNumbers(string number)
     {
         GameManager.Instance.Audio.PlaySFX(AudioClipName.KeypadSound, transform.position);
-        if (_numbers.text.Length >= _password.Length) return;
+        if (_numbers.text.Length >= _password.Length) _numbers.text = "";
 
         _numbers.text += number;
     }
@@ -36,6 +36,7 @@ public class KeyPad : MonoBehaviour
     private void ClearNumbers()
     {
         _numbers.text = "";
+        GameManager.Instance.Audio.PlaySFX(AudioClipName.KeypadSound, transform.position);
     }
 
     private void CheckPassword()

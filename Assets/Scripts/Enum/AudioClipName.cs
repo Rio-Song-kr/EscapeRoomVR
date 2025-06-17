@@ -3,10 +3,10 @@ public enum AudioClipName
     Background,
     RoomDoorSound,
     DoorSound,
+    ClosedDoorSound,
     CardSound,
     WalkSound,
     PushButtonSound,
-    ChestSound,
     SocketItemSound,
     KeypadSound
 }
