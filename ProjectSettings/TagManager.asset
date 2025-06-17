@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Floor
+  - Left Hand
+  - Right Hand
+  - Cube
+  - ID Card
   layers:
   - Default
   - TransparentFX
@@ -13,6 +18,11 @@ TagManager:
   - UI
   - 
   - 
+  - Body
+  - Grab
+  - Grab Ignore Ray
+  - Interactable Body
+  - Target
   - 
   - 
   - 
@@ -31,12 +41,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Teleport
   m_SortingLayers:
   - name: Default
     uniqueID: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb12b46ed2aafa4e915f6f9f92dc37d, type: 3}
+  m_Name: AudioDataSO
+  m_EditorClassIdentifier: 
+  BGMAudioMixer: {fileID: 7020720361972541069, guid: 8e6e58e5b6905534c838fc8ccdfb7919,
+    type: 2}
+  SFXAudioMixer: {fileID: 3760436955585604905, guid: 8e6e58e5b6905534c838fc8ccdfb7919,
+    type: 2}
+  Background: {fileID: 8300000, guid: e81a5cb2ddaf14266b072b3bf679aeaa, type: 3}
+  RoomDoorSound: {fileID: 8300000, guid: 22d6f5f0f6148430e8f9577c1b71188c, type: 3}
+  DoorSound: {fileID: 8300000, guid: 9bb803dcd4d8edd4e96fc2e7baa34896, type: 3}
+  ClosedDoorSound: {fileID: 8300000, guid: f5136fcd911c7434aa5c3898e2ad929d, type: 3}
+  CardSound: {fileID: 8300000, guid: b550a19b39f3d4dceb63d07670ac6ccf, type: 3}
+  WalkSound: {fileID: 8300000, guid: fcdbb45cbdc3fbe4ea5497b81f865117, type: 3}
+  PushButtonSound: {fileID: 8300000, guid: 7496ce73fcbd0794cac36cb3164a424c, type: 3}
+  SocketItemSound: {fileID: 8300000, guid: 8d2b9eab35fa74670b60e61fc516ca6e, type: 3}
+  KeypadSound: {fileID: 8300000, guid: 755205a4c850d47d7841013de859ba98, type: 3}
